@@ -24,7 +24,7 @@ requirements:
   - pip install -r requirements.txt
 
 * create database and tables:
-  - python manage.py makemigrations api_fetcher
+  - python manage.py makemigrations api
   - python manage.py migrate
 
 * create superuser:
